@@ -36,5 +36,10 @@ namespace Talleres.View
         {
             new ReporteConsumoMaterialForm().Show();
         }
+
+        private void stockDeMaterialesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new ReporteStockMaterialForm().Show();
+        }
     }
 }

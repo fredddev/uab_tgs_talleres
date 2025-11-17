@@ -1,0 +1,261 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\UNIVERSIDAD UAB\\Teoria General de sistemas\\Talleres\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE6FE77A-087D-4882-86C6-65908A61FE95}|Talleres.View\\Talleres.View.csproj|c:\\universidad uab\\teoria general de sistemas\\talleres\\talleres.view\\maindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE6FE77A-087D-4882-86C6-65908A61FE95}|Talleres.View\\Talleres.View.csproj|solutionrelative:talleres.view\\maindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE6FE77A-087D-4882-86C6-65908A61FE95}|Talleres.View\\Talleres.View.csproj|c:\\universidad uab\\teoria general de sistemas\\talleres\\talleres.view\\maindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CE6FE77A-087D-4882-86C6-65908A61FE95}|Talleres.View\\Talleres.View.csproj|solutionrelative:talleres.view\\maindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE6FE77A-087D-4882-86C6-65908A61FE95}|Talleres.View\\Talleres.View.csproj|c:\\universidad uab\\teoria general de sistemas\\talleres\\talleres.view\\reportestockmaterialform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE6FE77A-087D-4882-86C6-65908A61FE95}|Talleres.View\\Talleres.View.csproj|solutionrelative:talleres.view\\reportestockmaterialform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE6FE77A-087D-4882-86C6-65908A61FE95}|Talleres.View\\Talleres.View.csproj|c:\\universidad uab\\teoria general de sistemas\\talleres\\talleres.view\\reportestockmaterialform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE6FE77A-087D-4882-86C6-65908A61FE95}|Talleres.View\\Talleres.View.csproj|solutionrelative:talleres.view\\reportestockmaterialform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{874A0E2E-9E66-47BD-9CBF-3016B3D999C9}|Talleres.Controller\\Talleres.Controller.csproj|c:\\universidad uab\\teoria general de sistemas\\talleres\\talleres.controller\\material\\materialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{874A0E2E-9E66-47BD-9CBF-3016B3D999C9}|Talleres.Controller\\Talleres.Controller.csproj|solutionrelative:talleres.controller\\material\\materialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{460BD33F-9290-4CE0-8371-EE99519F6D52}|Talleres.Model\\Talleres.Model.csproj|c:\\universidad uab\\teoria general de sistemas\\talleres\\talleres.model\\services\\materialservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{460BD33F-9290-4CE0-8371-EE99519F6D52}|Talleres.Model\\Talleres.Model.csproj|solutionrelative:talleres.model\\services\\materialservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{460BD33F-9290-4CE0-8371-EE99519F6D52}|Talleres.Model\\Talleres.Model.csproj|c:\\universidad uab\\teoria general de sistemas\\talleres\\talleres.model\\contracts\\services\\imaterialservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{460BD33F-9290-4CE0-8371-EE99519F6D52}|Talleres.Model\\Talleres.Model.csproj|solutionrelative:talleres.model\\contracts\\services\\imaterialservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{460BD33F-9290-4CE0-8371-EE99519F6D52}|Talleres.Model\\Talleres.Model.csproj|c:\\universidad uab\\teoria general de sistemas\\talleres\\talleres.model\\repositories\\materialrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{460BD33F-9290-4CE0-8371-EE99519F6D52}|Talleres.Model\\Talleres.Model.csproj|solutionrelative:talleres.model\\repositories\\materialrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{460BD33F-9290-4CE0-8371-EE99519F6D52}|Talleres.Model\\Talleres.Model.csproj|c:\\universidad uab\\teoria general de sistemas\\talleres\\talleres.model\\contracts\\repositories\\imaterialrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{460BD33F-9290-4CE0-8371-EE99519F6D52}|Talleres.Model\\Talleres.Model.csproj|solutionrelative:talleres.model\\contracts\\repositories\\imaterialrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{460BD33F-9290-4CE0-8371-EE99519F6D52}|Talleres.Model\\Talleres.Model.csproj|c:\\universidad uab\\teoria general de sistemas\\talleres\\talleres.model\\entities\\materialstockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{460BD33F-9290-4CE0-8371-EE99519F6D52}|Talleres.Model\\Talleres.Model.csproj|solutionrelative:talleres.model\\entities\\materialstockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{874A0E2E-9E66-47BD-9CBF-3016B3D999C9}|Talleres.Controller\\Talleres.Controller.csproj|c:\\universidad uab\\teoria general de sistemas\\talleres\\talleres.controller\\pedido\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{874A0E2E-9E66-47BD-9CBF-3016B3D999C9}|Talleres.Controller\\Talleres.Controller.csproj|solutionrelative:talleres.controller\\pedido\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{460BD33F-9290-4CE0-8371-EE99519F6D52}|Talleres.Model\\Talleres.Model.csproj|c:\\universidad uab\\teoria general de sistemas\\talleres\\talleres.model\\repositories\\pedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{460BD33F-9290-4CE0-8371-EE99519F6D52}|Talleres.Model\\Talleres.Model.csproj|solutionrelative:talleres.model\\repositories\\pedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{460BD33F-9290-4CE0-8371-EE99519F6D52}|Talleres.Model\\Talleres.Model.csproj|c:\\universidad uab\\teoria general de sistemas\\talleres\\talleres.model\\services\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{460BD33F-9290-4CE0-8371-EE99519F6D52}|Talleres.Model\\Talleres.Model.csproj|solutionrelative:talleres.model\\services\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{460BD33F-9290-4CE0-8371-EE99519F6D52}|Talleres.Model\\Talleres.Model.csproj|c:\\universidad uab\\teoria general de sistemas\\talleres\\talleres.model\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{460BD33F-9290-4CE0-8371-EE99519F6D52}|Talleres.Model\\Talleres.Model.csproj|solutionrelative:talleres.model\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReporteStockMaterialForm.cs",
+              "DocumentMoniker": "C:\\UNIVERSIDAD UAB\\Teoria General de sistemas\\Talleres\\Talleres.View\\ReporteStockMaterialForm.cs",
+              "RelativeDocumentMoniker": "Talleres.View\\ReporteStockMaterialForm.cs",
+              "ToolTip": "C:\\UNIVERSIDAD UAB\\Teoria General de sistemas\\Talleres\\Talleres.View\\ReporteStockMaterialForm.cs",
+              "RelativeToolTip": "Talleres.View\\ReporteStockMaterialForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T02:56:33.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReporteStockMaterialForm.Designer.cs",
+              "DocumentMoniker": "C:\\UNIVERSIDAD UAB\\Teoria General de sistemas\\Talleres\\Talleres.View\\ReporteStockMaterialForm.Designer.cs",
+              "RelativeDocumentMoniker": "Talleres.View\\ReporteStockMaterialForm.Designer.cs",
+              "ToolTip": "C:\\UNIVERSIDAD UAB\\Teoria General de sistemas\\Talleres\\Talleres.View\\ReporteStockMaterialForm.Designer.cs",
+              "RelativeToolTip": "Talleres.View\\ReporteStockMaterialForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T02:56:25.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MaterialController.cs",
+              "DocumentMoniker": "C:\\UNIVERSIDAD UAB\\Teoria General de sistemas\\Talleres\\Talleres.Controller\\Material\\MaterialController.cs",
+              "RelativeDocumentMoniker": "Talleres.Controller\\Material\\MaterialController.cs",
+              "ToolTip": "C:\\UNIVERSIDAD UAB\\Teoria General de sistemas\\Talleres\\Talleres.Controller\\Material\\MaterialController.cs",
+              "RelativeToolTip": "Talleres.Controller\\Material\\MaterialController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T02:56:13.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MaterialService.cs",
+              "DocumentMoniker": "C:\\UNIVERSIDAD UAB\\Teoria General de sistemas\\Talleres\\Talleres.Model\\Services\\MaterialService.cs",
+              "RelativeDocumentMoniker": "Talleres.Model\\Services\\MaterialService.cs",
+              "ToolTip": "C:\\UNIVERSIDAD UAB\\Teoria General de sistemas\\Talleres\\Talleres.Model\\Services\\MaterialService.cs",
+              "RelativeToolTip": "Talleres.Model\\Services\\MaterialService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T02:55:42.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IMaterialService.cs",
+              "DocumentMoniker": "C:\\UNIVERSIDAD UAB\\Teoria General de sistemas\\Talleres\\Talleres.Model\\Contracts\\Services\\IMaterialService.cs",
+              "RelativeDocumentMoniker": "Talleres.Model\\Contracts\\Services\\IMaterialService.cs",
+              "ToolTip": "C:\\UNIVERSIDAD UAB\\Teoria General de sistemas\\Talleres\\Talleres.Model\\Contracts\\Services\\IMaterialService.cs",
+              "RelativeToolTip": "Talleres.Model\\Contracts\\Services\\IMaterialService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T02:55:35.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MaterialRepository.cs",
+              "DocumentMoniker": "C:\\UNIVERSIDAD UAB\\Teoria General de sistemas\\Talleres\\Talleres.Model\\Repositories\\MaterialRepository.cs",
+              "RelativeDocumentMoniker": "Talleres.Model\\Repositories\\MaterialRepository.cs",
+              "ToolTip": "C:\\UNIVERSIDAD UAB\\Teoria General de sistemas\\Talleres\\Talleres.Model\\Repositories\\MaterialRepository.cs",
+              "RelativeToolTip": "Talleres.Model\\Repositories\\MaterialRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wDMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T02:55:20.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IMaterialRepository.cs",
+              "DocumentMoniker": "C:\\UNIVERSIDAD UAB\\Teoria General de sistemas\\Talleres\\Talleres.Model\\Contracts\\Repositories\\IMaterialRepository.cs",
+              "RelativeDocumentMoniker": "Talleres.Model\\Contracts\\Repositories\\IMaterialRepository.cs",
+              "ToolTip": "C:\\UNIVERSIDAD UAB\\Teoria General de sistemas\\Talleres\\Talleres.Model\\Contracts\\Repositories\\IMaterialRepository.cs",
+              "RelativeToolTip": "Talleres.Model\\Contracts\\Repositories\\IMaterialRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T02:55:10.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MaterialStockDto.cs",
+              "DocumentMoniker": "C:\\UNIVERSIDAD UAB\\Teoria General de sistemas\\Talleres\\Talleres.Model\\Entities\\MaterialStockDto.cs",
+              "RelativeDocumentMoniker": "Talleres.Model\\Entities\\MaterialStockDto.cs",
+              "ToolTip": "C:\\UNIVERSIDAD UAB\\Teoria General de sistemas\\Talleres\\Talleres.Model\\Entities\\MaterialStockDto.cs",
+              "RelativeToolTip": "Talleres.Model\\Entities\\MaterialStockDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T02:54:59.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PedidoController.cs",
+              "DocumentMoniker": "C:\\UNIVERSIDAD UAB\\Teoria General de sistemas\\Talleres\\Talleres.Controller\\Pedido\\PedidoController.cs",
+              "RelativeDocumentMoniker": "Talleres.Controller\\Pedido\\PedidoController.cs",
+              "ToolTip": "C:\\UNIVERSIDAD UAB\\Teoria General de sistemas\\Talleres\\Talleres.Controller\\Pedido\\PedidoController.cs",
+              "RelativeToolTip": "Talleres.Controller\\Pedido\\PedidoController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAIA0wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T02:46:19.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PedidoRepository.cs",
+              "DocumentMoniker": "C:\\UNIVERSIDAD UAB\\Teoria General de sistemas\\Talleres\\Talleres.Model\\Repositories\\PedidoRepository.cs",
+              "RelativeDocumentMoniker": "Talleres.Model\\Repositories\\PedidoRepository.cs",
+              "ToolTip": "C:\\UNIVERSIDAD UAB\\Teoria General de sistemas\\Talleres\\Talleres.Model\\Repositories\\PedidoRepository.cs",
+              "RelativeToolTip": "Talleres.Model\\Repositories\\PedidoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T02:42:43.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\UNIVERSIDAD UAB\\Teoria General de sistemas\\Talleres\\Talleres.Model\\Repositories\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Talleres.Model\\Repositories\\UsuarioRepository.cs",
+              "ToolTip": "C:\\UNIVERSIDAD UAB\\Teoria General de sistemas\\Talleres\\Talleres.Model\\Repositories\\UsuarioRepository.cs",
+              "RelativeToolTip": "Talleres.Model\\Repositories\\UsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T02:42:40.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PedidoService.cs",
+              "DocumentMoniker": "C:\\UNIVERSIDAD UAB\\Teoria General de sistemas\\Talleres\\Talleres.Model\\Services\\PedidoService.cs",
+              "RelativeDocumentMoniker": "Talleres.Model\\Services\\PedidoService.cs",
+              "ToolTip": "C:\\UNIVERSIDAD UAB\\Teoria General de sistemas\\Talleres\\Talleres.Model\\Services\\PedidoService.cs",
+              "RelativeToolTip": "Talleres.Model\\Services\\PedidoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T02:42:24.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainDashboardForm.cs",
+              "DocumentMoniker": "C:\\UNIVERSIDAD UAB\\Teoria General de sistemas\\Talleres\\Talleres.View\\MainDashboardForm.cs",
+              "RelativeDocumentMoniker": "Talleres.View\\MainDashboardForm.cs",
+              "ToolTip": "C:\\UNIVERSIDAD UAB\\Teoria General de sistemas\\Talleres\\Talleres.View\\MainDashboardForm.cs",
+              "RelativeToolTip": "Talleres.View\\MainDashboardForm.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAvwCkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T02:37:55.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainDashboardForm.cs [Design]",
+              "DocumentMoniker": "C:\\UNIVERSIDAD UAB\\Teoria General de sistemas\\Talleres\\Talleres.View\\MainDashboardForm.cs",
+              "RelativeDocumentMoniker": "Talleres.View\\MainDashboardForm.cs",
+              "ToolTip": "C:\\UNIVERSIDAD UAB\\Teoria General de sistemas\\Talleres\\Talleres.View\\MainDashboardForm.cs [Design]",
+              "RelativeToolTip": "Talleres.View\\MainDashboardForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T02:37:27.787Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

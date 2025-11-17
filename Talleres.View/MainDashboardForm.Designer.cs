@@ -47,12 +47,13 @@
             reportesToolStripMenuItem = new ToolStripMenuItem();
             reporteDeMaterialesConsumidosToolStripMenuItem = new ToolStripMenuItem();
             reporteDePedidosToolStripMenuItem = new ToolStripMenuItem();
+            consumoDeMaterialesPorPedidoToolStripMenuItem = new ToolStripMenuItem();
             panel1 = new Panel();
             pictureBox1 = new PictureBox();
             button1 = new Button();
             btnLogin = new Button();
             pictureBox2 = new PictureBox();
-            consumoDeMaterialesPorPedidoToolStripMenuItem = new ToolStripMenuItem();
+            stockDeMaterialesToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -159,7 +160,7 @@
             // 
             // reportesToolStripMenuItem
             // 
-            reportesToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { reporteDeMaterialesConsumidosToolStripMenuItem, reporteDePedidosToolStripMenuItem, consumoDeMaterialesPorPedidoToolStripMenuItem });
+            reportesToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { reporteDeMaterialesConsumidosToolStripMenuItem, reporteDePedidosToolStripMenuItem, consumoDeMaterialesPorPedidoToolStripMenuItem, stockDeMaterialesToolStripMenuItem });
             reportesToolStripMenuItem.Name = "reportesToolStripMenuItem";
             reportesToolStripMenuItem.Size = new Size(65, 20);
             reportesToolStripMenuItem.Text = "Reportes";
@@ -177,6 +178,13 @@
             reporteDePedidosToolStripMenuItem.Size = new Size(260, 22);
             reporteDePedidosToolStripMenuItem.Text = "Pedidos en proceso";
             reporteDePedidosToolStripMenuItem.Click += reporteDePedidosToolStripMenuItem_Click;
+            // 
+            // consumoDeMaterialesPorPedidoToolStripMenuItem
+            // 
+            consumoDeMaterialesPorPedidoToolStripMenuItem.Name = "consumoDeMaterialesPorPedidoToolStripMenuItem";
+            consumoDeMaterialesPorPedidoToolStripMenuItem.Size = new Size(260, 22);
+            consumoDeMaterialesPorPedidoToolStripMenuItem.Text = "Consumo de Materiales por Pedido";
+            consumoDeMaterialesPorPedidoToolStripMenuItem.Click += consumoDeMaterialesPorPedidoToolStripMenuItem_Click;
             // 
             // panel1
             // 
@@ -234,12 +242,12 @@
             pictureBox2.TabIndex = 2;
             pictureBox2.TabStop = false;
             // 
-            // consumoDeMaterialesPorPedidoToolStripMenuItem
+            // stockDeMaterialesToolStripMenuItem
             // 
-            consumoDeMaterialesPorPedidoToolStripMenuItem.Name = "consumoDeMaterialesPorPedidoToolStripMenuItem";
-            consumoDeMaterialesPorPedidoToolStripMenuItem.Size = new Size(260, 22);
-            consumoDeMaterialesPorPedidoToolStripMenuItem.Text = "Consumo de Materiales por Pedido";
-            consumoDeMaterialesPorPedidoToolStripMenuItem.Click += consumoDeMaterialesPorPedidoToolStripMenuItem_Click;
+            stockDeMaterialesToolStripMenuItem.Name = "stockDeMaterialesToolStripMenuItem";
+            stockDeMaterialesToolStripMenuItem.Size = new Size(260, 22);
+            stockDeMaterialesToolStripMenuItem.Text = "Stock de materiales";
+            stockDeMaterialesToolStripMenuItem.Click += stockDeMaterialesToolStripMenuItem_Click;
             // 
             // MainDashboardForm
             // 
@@ -287,5 +295,6 @@
         private ToolStripMenuItem reporteDePedidosToolStripMenuItem;
         private PictureBox pictureBox2;
         private ToolStripMenuItem consumoDeMaterialesPorPedidoToolStripMenuItem;
+        private ToolStripMenuItem stockDeMaterialesToolStripMenuItem;
     }
 }

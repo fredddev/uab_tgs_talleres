@@ -1,0 +1,31 @@
+C:\Users\fredd\Downloads\app-talleres\Talleres\Talleres.Controller\obj\Debug\net8.0\Talleres.Controller.csproj.AssemblyReference.cache
+C:\Users\fredd\Downloads\app-talleres\Talleres\Talleres.Controller\obj\Debug\net8.0\Talleres.Controller.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fredd\Downloads\app-talleres\Talleres\Talleres.Controller\obj\Debug\net8.0\Talleres.Controller.AssemblyInfoInputs.cache
+C:\Users\fredd\Downloads\app-talleres\Talleres\Talleres.Controller\obj\Debug\net8.0\Talleres.Controller.AssemblyInfo.cs
+C:\Users\fredd\Downloads\app-talleres\Talleres\Talleres.Controller\obj\Debug\net8.0\Talleres.Controller.csproj.CoreCompileInputs.cache
+C:\Users\fredd\Downloads\app-talleres\Talleres\Talleres.Controller\bin\Debug\net8.0\Talleres.Controller.deps.json
+C:\Users\fredd\Downloads\app-talleres\Talleres\Talleres.Controller\bin\Debug\net8.0\Talleres.Controller.dll
+C:\Users\fredd\Downloads\app-talleres\Talleres\Talleres.Controller\bin\Debug\net8.0\Talleres.Controller.pdb
+C:\Users\fredd\Downloads\app-talleres\Talleres\Talleres.Controller\bin\Debug\net8.0\Talleres.Model.dll
+C:\Users\fredd\Downloads\app-talleres\Talleres\Talleres.Controller\bin\Debug\net8.0\Talleres.Model.pdb
+C:\Users\fredd\Downloads\app-talleres\Talleres\Talleres.Controller\obj\Debug\net8.0\Talleres.1748C020.Up2Date
+C:\Users\fredd\Downloads\app-talleres\Talleres\Talleres.Controller\obj\Debug\net8.0\Talleres.Controller.dll
+C:\Users\fredd\Downloads\app-talleres\Talleres\Talleres.Controller\obj\Debug\net8.0\refint\Talleres.Controller.dll
+C:\Users\fredd\Downloads\app-talleres\Talleres\Talleres.Controller\obj\Debug\net8.0\Talleres.Controller.pdb
+C:\Users\fredd\Downloads\app-talleres\Talleres\Talleres.Controller\obj\Debug\net8.0\ref\Talleres.Controller.dll
+C:\UNIVERSIDAD UAB\Teoria General de sistemas\Talleres\Talleres.Controller\bin\Debug\net8.0\Talleres.Controller.deps.json
+C:\UNIVERSIDAD UAB\Teoria General de sistemas\Talleres\Talleres.Controller\bin\Debug\net8.0\Talleres.Controller.dll
+C:\UNIVERSIDAD UAB\Teoria General de sistemas\Talleres\Talleres.Controller\bin\Debug\net8.0\Talleres.Controller.pdb
+C:\UNIVERSIDAD UAB\Teoria General de sistemas\Talleres\Talleres.Controller\bin\Debug\net8.0\Talleres.Model.dll
+C:\UNIVERSIDAD UAB\Teoria General de sistemas\Talleres\Talleres.Controller\bin\Debug\net8.0\Talleres.Model.pdb
+C:\UNIVERSIDAD UAB\Teoria General de sistemas\Talleres\Talleres.Controller\obj\Debug\net8.0\Talleres.Controller.csproj.AssemblyReference.cache
+C:\UNIVERSIDAD UAB\Teoria General de sistemas\Talleres\Talleres.Controller\obj\Debug\net8.0\Talleres.Controller.GeneratedMSBuildEditorConfig.editorconfig
+C:\UNIVERSIDAD UAB\Teoria General de sistemas\Talleres\Talleres.Controller\obj\Debug\net8.0\Talleres.Controller.AssemblyInfoInputs.cache
+C:\UNIVERSIDAD UAB\Teoria General de sistemas\Talleres\Talleres.Controller\obj\Debug\net8.0\Talleres.Controller.AssemblyInfo.cs
+C:\UNIVERSIDAD UAB\Teoria General de sistemas\Talleres\Talleres.Controller\obj\Debug\net8.0\Talleres.Controller.csproj.CoreCompileInputs.cache
+C:\UNIVERSIDAD UAB\Teoria General de sistemas\Talleres\Talleres.Controller\obj\Debug\net8.0\Talleres.Controller.sourcelink.json
+C:\UNIVERSIDAD UAB\Teoria General de sistemas\Talleres\Talleres.Controller\obj\Debug\net8.0\Talleres.1748C020.Up2Date
+C:\UNIVERSIDAD UAB\Teoria General de sistemas\Talleres\Talleres.Controller\obj\Debug\net8.0\Talleres.Controller.dll
+C:\UNIVERSIDAD UAB\Teoria General de sistemas\Talleres\Talleres.Controller\obj\Debug\net8.0\refint\Talleres.Controller.dll
+C:\UNIVERSIDAD UAB\Teoria General de sistemas\Talleres\Talleres.Controller\obj\Debug\net8.0\Talleres.Controller.pdb
+C:\UNIVERSIDAD UAB\Teoria General de sistemas\Talleres\Talleres.Controller\obj\Debug\net8.0\ref\Talleres.Controller.dll
