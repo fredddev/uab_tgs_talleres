@@ -1,31 +1,56 @@
-Visual Studio
+# =========================
+# Visual Studio / .NET
+# =========================
 
-.vs/ .user .suo .cache .ide
+# Visual Studio / .NET - Ignore de referencia para proyectos Visual Studio y .NET
 
-Build results
+# Visual Studio
+.vs/
+.vscode/
 
-bin/ obj/ Debug/ Release/
+# Build outputs
+**/bin/
+**/obj/
+apphost.exe
+*.dll
+*.exe
+*.pdb
+*.cache
+*.runtimeconfig.dev.json
+*.runtimeconfig.json
 
-Packages
+# Rider / ReSharper
+_ReSharper*/
+.idea/
+*.DotSettings.user
 
-packages/ *.nupkg
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.csproj.user
 
-Logs
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+.nuget/
 
+# Logs and temp
 *.log
+[Tt]est[Rr]esults/
+logs/
 
-Resharper
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
 
-_ReSharper/ .DotSettings.user
+# Others
+*.dbmdl
+*.sourcelink.json
+*.userprefs
 
-NuGet
-
-.nupkg .snupkg project.lock.json
-
-Windows Forms auto-generated files
-
-*.Designer.cs~
-
-Other
-
-.tmp .bak *.swp
+# Ignore generated files by IDE extensions (e.g., Copilot indices)
+.vs/**/CopilotIndices/
