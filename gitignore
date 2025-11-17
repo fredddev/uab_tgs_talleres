@@ -1,0 +1,31 @@
+Visual Studio
+
+.vs/ .user .suo .cache .ide
+
+Build results
+
+bin/ obj/ Debug/ Release/
+
+Packages
+
+packages/ *.nupkg
+
+Logs
+
+*.log
+
+Resharper
+
+_ReSharper/ .DotSettings.user
+
+NuGet
+
+.nupkg .snupkg project.lock.json
+
+Windows Forms auto-generated files
+
+*.Designer.cs~
+
+Other
+
+.tmp .bak *.swp
