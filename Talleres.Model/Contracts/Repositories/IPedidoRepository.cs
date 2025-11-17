@@ -10,5 +10,6 @@ namespace Talleres.Model.Contracts.Repositories
         Task CreateDetalleAsync(DetallePedido detalle);
         Task<List<PedidoReporteDto>> GetPedidosEnProcesoAsync();
         Task<List<PedidoEntregadoDto>> GetPedidosEntregadosAsync(DateTime fechaInicio, DateTime fechaFin);
+        Task<List<MaterialConsumoDto>> GetConsumoMaterialAsync(int? idPedido = null, DateTime? inicio = null, DateTime? fin = null);
     }
 }

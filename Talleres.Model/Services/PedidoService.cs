@@ -37,5 +37,10 @@ namespace Talleres.Model.Services
         {
             return await _pedidoRepo.GetPedidosEntregadosAsync(fechaInicio, fechaFin).ConfigureAwait(false);
         }
+
+        public async Task<List<MaterialConsumoDto>> ObtenerConsumoMaterialAsync(int? idPedido = null, DateTime? inicio = null, DateTime? fin = null)
+        {
+            return await _pedidoRepo.GetConsumoMaterialAsync(idPedido, inicio, fin).ConfigureAwait(false);
+        }
     }
 }

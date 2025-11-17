@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Text;
 using System.Threading.Tasks;
 using MySqlConnector;
 using Talleres.Model.Contracts.Repositories;
@@ -134,6 +135,62 @@ namespace Talleres.Model.Repositories
                     MontoTotal = reader.GetDecimal("montoTotal"),
                     NumeroItems = reader.GetInt32("NumeroItems"),
                     UsuarioResponsable = null
+                });
+            }
+
+            return list;
+        }
+
+        public async Task<List<MaterialConsumoDto>> GetConsumoMaterialAsync(int? idPedido = null, DateTime? inicio = null, DateTime? fin = null)
+        {
+            var sb = new StringBuilder();
+            sb.AppendLine(@"SELECT
+                                p.idPedido,
+                                c.nombre AS Cliente,
+                                m.nombre AS Material,
+                                im.tipo AS TipoMovimiento,
+                                im.cantidad AS Cantidad,
+                                m.unidad AS Unidad,
+                                m.costoUnitario AS CostoUnitario,
+                                im.fecha AS FechaMovimiento
+                            FROM InventarioMovimiento im
+                            INNER JOIN Material m ON im.idMaterial = m.idMaterial
+                            INNER JOIN Pedido p ON im.idPedido = p.idPedido
+                            INNER JOIN Cliente c ON p.idCliente = c.idCliente
+                            WHERE 1 = 1");
+
+            if (idPedido.HasValue) sb.AppendLine(" AND im.idPedido = @idPedido");
+            if (inicio.HasValue) sb.AppendLine(" AND im.fecha >= @inicio");
+            if (fin.HasValue) sb.AppendLine(" AND im.fecha <= @fin");
+
+            sb.AppendLine(" ORDER BY p.idPedido, im.fecha ASC;");
+
+            var list = new List<MaterialConsumoDto>();
+
+            await using var conn = new MySqlConnection(_connectionString);
+            await conn.OpenAsync().ConfigureAwait(false);
+            await using var cmd = new MySqlCommand(sb.ToString(), conn);
+
+            if (idPedido.HasValue) cmd.Parameters.AddWithValue("@idPedido", idPedido.Value);
+            if (inicio.HasValue) cmd.Parameters.AddWithValue("@inicio", inicio.Value);
+            if (fin.HasValue) cmd.Parameters.AddWithValue("@fin", fin.Value);
+
+            await using var reader = await cmd.ExecuteReaderAsync().ConfigureAwait(false);
+            while (await reader.ReadAsync().ConfigureAwait(false))
+            {
+                var cantidad = reader.GetDecimal("Cantidad");
+                var costoUnitario = reader.GetDecimal("CostoUnitario");
+                list.Add(new MaterialConsumoDto
+                {
+                    IdPedido = reader.GetInt32("idPedido"),
+                    Cliente = reader.GetString("Cliente"),
+                    Material = reader.GetString("Material"),
+                    TipoMovimiento = reader.GetString("TipoMovimiento"),
+                    Cantidad = cantidad,
+                    Unidad = reader.IsDBNull(reader.GetOrdinal("Unidad")) ? string.Empty : reader.GetString("Unidad"),
+                    CostoUnitario = costoUnitario,
+                    CostoTotal = cantidad * costoUnitario,
+                    FechaMovimiento = reader.GetDateTime("FechaMovimiento")
                 });
             }
 

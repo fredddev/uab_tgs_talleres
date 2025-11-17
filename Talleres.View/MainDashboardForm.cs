@@ -31,5 +31,10 @@ namespace Talleres.View
         {
             new ReportePedidosEntregadosForm().Show();
         }
+
+        private void consumoDeMaterialesPorPedidoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new ReporteConsumoMaterialForm().Show();
+        }
     }
 }

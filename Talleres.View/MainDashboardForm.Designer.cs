@@ -52,6 +52,7 @@
             button1 = new Button();
             btnLogin = new Button();
             pictureBox2 = new PictureBox();
+            consumoDeMaterialesPorPedidoToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -158,7 +159,7 @@
             // 
             // reportesToolStripMenuItem
             // 
-            reportesToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { reporteDeMaterialesConsumidosToolStripMenuItem, reporteDePedidosToolStripMenuItem });
+            reportesToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { reporteDeMaterialesConsumidosToolStripMenuItem, reporteDePedidosToolStripMenuItem, consumoDeMaterialesPorPedidoToolStripMenuItem });
             reportesToolStripMenuItem.Name = "reportesToolStripMenuItem";
             reportesToolStripMenuItem.Size = new Size(65, 20);
             reportesToolStripMenuItem.Text = "Reportes";
@@ -166,14 +167,14 @@
             // reporteDeMaterialesConsumidosToolStripMenuItem
             // 
             reporteDeMaterialesConsumidosToolStripMenuItem.Name = "reporteDeMaterialesConsumidosToolStripMenuItem";
-            reporteDeMaterialesConsumidosToolStripMenuItem.Size = new Size(180, 22);
+            reporteDeMaterialesConsumidosToolStripMenuItem.Size = new Size(260, 22);
             reporteDeMaterialesConsumidosToolStripMenuItem.Text = "Pedidos entregados";
             reporteDeMaterialesConsumidosToolStripMenuItem.Click += reporteDeMaterialesConsumidosToolStripMenuItem_Click;
             // 
             // reporteDePedidosToolStripMenuItem
             // 
             reporteDePedidosToolStripMenuItem.Name = "reporteDePedidosToolStripMenuItem";
-            reporteDePedidosToolStripMenuItem.Size = new Size(180, 22);
+            reporteDePedidosToolStripMenuItem.Size = new Size(260, 22);
             reporteDePedidosToolStripMenuItem.Text = "Pedidos en proceso";
             reporteDePedidosToolStripMenuItem.Click += reporteDePedidosToolStripMenuItem_Click;
             // 
@@ -233,6 +234,13 @@
             pictureBox2.TabIndex = 2;
             pictureBox2.TabStop = false;
             // 
+            // consumoDeMaterialesPorPedidoToolStripMenuItem
+            // 
+            consumoDeMaterialesPorPedidoToolStripMenuItem.Name = "consumoDeMaterialesPorPedidoToolStripMenuItem";
+            consumoDeMaterialesPorPedidoToolStripMenuItem.Size = new Size(260, 22);
+            consumoDeMaterialesPorPedidoToolStripMenuItem.Text = "Consumo de Materiales por Pedido";
+            consumoDeMaterialesPorPedidoToolStripMenuItem.Click += consumoDeMaterialesPorPedidoToolStripMenuItem_Click;
+            // 
             // MainDashboardForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -278,5 +286,6 @@
         private ToolStripMenuItem reporteDeMaterialesConsumidosToolStripMenuItem;
         private ToolStripMenuItem reporteDePedidosToolStripMenuItem;
         private PictureBox pictureBox2;
+        private ToolStripMenuItem consumoDeMaterialesPorPedidoToolStripMenuItem;
     }
 }

@@ -25,10 +25,14 @@ namespace Talleres.Controller.Pedidos
             return await _pedidoService.ObtenerPedidosEnProcesoAsync().ConfigureAwait(false);
         }
 
-        // Nuevo: exponer pedidos entregados entre fechas
         public async Task<List<PedidoEntregadoDto>> ObtenerPedidosEntregadosAsync(DateTime inicio, DateTime fin)
         {
             return await _pedidoService.ObtenerPedidosEntregadosAsync(inicio, fin).ConfigureAwait(false);
+        }
+
+        public async Task<List<MaterialConsumoDto>> ObtenerConsumoMaterialAsync(int? idPedido = null, DateTime? inicio = null, DateTime? fin = null)
+        {
+            return await _pedidoService.ObtenerConsumoMaterialAsync(idPedido, inicio, fin).ConfigureAwait(false);
         }
     }
 }
