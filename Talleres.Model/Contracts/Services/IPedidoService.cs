@@ -7,8 +7,7 @@ namespace Talleres.Model.Contracts.Services
     public interface IPedidoService
     {
         Task<int> CrearPedidoConDetalleAsync(Pedido pedido, IEnumerable<DetallePedido> detalles);
-
-        // Nuevo: obtener reporte de pedidos en proceso
         Task<List<PedidoReporteDto>> ObtenerPedidosEnProcesoAsync();
+        Task<List<PedidoEntregadoDto>> ObtenerPedidosEntregadosAsync(DateTime fechaInicio, DateTime fechaFin);
     }
 }

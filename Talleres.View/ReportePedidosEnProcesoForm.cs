@@ -52,5 +52,10 @@ namespace Talleres.View
                 btnRefrescar.Enabled = true;
             }
         }
+
+        private void ReportePedidosEnProcesoForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

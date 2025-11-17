@@ -166,14 +166,16 @@
             // reporteDeMaterialesConsumidosToolStripMenuItem
             // 
             reporteDeMaterialesConsumidosToolStripMenuItem.Name = "reporteDeMaterialesConsumidosToolStripMenuItem";
-            reporteDeMaterialesConsumidosToolStripMenuItem.Size = new Size(256, 22);
-            reporteDeMaterialesConsumidosToolStripMenuItem.Text = "Reporte de materiales consumidos";
+            reporteDeMaterialesConsumidosToolStripMenuItem.Size = new Size(180, 22);
+            reporteDeMaterialesConsumidosToolStripMenuItem.Text = "Pedidos entregados";
+            reporteDeMaterialesConsumidosToolStripMenuItem.Click += reporteDeMaterialesConsumidosToolStripMenuItem_Click;
             // 
             // reporteDePedidosToolStripMenuItem
             // 
             reporteDePedidosToolStripMenuItem.Name = "reporteDePedidosToolStripMenuItem";
-            reporteDePedidosToolStripMenuItem.Size = new Size(256, 22);
-            reporteDePedidosToolStripMenuItem.Text = "Reporte de pedidos";
+            reporteDePedidosToolStripMenuItem.Size = new Size(180, 22);
+            reporteDePedidosToolStripMenuItem.Text = "Pedidos en proceso";
+            reporteDePedidosToolStripMenuItem.Click += reporteDePedidosToolStripMenuItem_Click;
             // 
             // panel1
             // 

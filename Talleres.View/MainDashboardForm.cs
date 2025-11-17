@@ -21,5 +21,15 @@ namespace Talleres.View
         {
             new RegistrarPedidoForm().Show();
         }
+
+        private void reporteDePedidosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new ReportePedidosEnProcesoForm().Show();
+        }
+
+        private void reporteDeMaterialesConsumidosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new ReportePedidosEntregadosForm().Show();
+        }
     }
 }

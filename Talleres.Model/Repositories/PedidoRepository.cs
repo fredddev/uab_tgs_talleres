@@ -96,5 +96,48 @@ namespace Talleres.Model.Repositories
 
             return list;
         }
+
+        public async Task<List<PedidoEntregadoDto>> GetPedidosEntregadosAsync(DateTime fechaInicio, DateTime fechaFin)
+        {
+            const string sql = @"
+                SELECT
+                    p.idPedido,
+                    c.nombre AS Cliente,
+                    p.fechaPedido,
+                    p.fechaEntrega,
+                    p.montoTotal,
+                    COUNT(d.idDetalle) AS NumeroItems
+                FROM Pedido p
+                INNER JOIN Cliente c ON p.idCliente = c.idCliente
+                LEFT JOIN DetallePedido d ON p.idPedido = d.idPedido
+                WHERE p.estado = 'ENTREGADO' AND p.fechaEntrega BETWEEN @inicio AND @fin
+                GROUP BY p.idPedido, c.nombre, p.fechaPedido, p.fechaEntrega, p.montoTotal
+                ORDER BY p.fechaEntrega ASC;";
+
+            var list = new List<PedidoEntregadoDto>();
+
+            await using var conn = new MySqlConnection(_connectionString);
+            await conn.OpenAsync().ConfigureAwait(false);
+            await using var cmd = new MySqlCommand(sql, conn);
+            cmd.Parameters.AddWithValue("@inicio", fechaInicio);
+            cmd.Parameters.AddWithValue("@fin", fechaFin);
+
+            await using var reader = await cmd.ExecuteReaderAsync().ConfigureAwait(false);
+            while (await reader.ReadAsync().ConfigureAwait(false))
+            {
+                list.Add(new PedidoEntregadoDto
+                {
+                    IdPedido = reader.GetInt32("idPedido"),
+                    Cliente = reader.GetString("Cliente"),
+                    FechaPedido = reader.GetDateTime("fechaPedido"),
+                    FechaEntrega = reader.GetDateTime("fechaEntrega"),
+                    MontoTotal = reader.GetDecimal("montoTotal"),
+                    NumeroItems = reader.GetInt32("NumeroItems"),
+                    UsuarioResponsable = null
+                });
+            }
+
+            return list;
+        }
     }
 }

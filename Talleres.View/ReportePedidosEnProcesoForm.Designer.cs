@@ -16,42 +16,52 @@ namespace Talleres.View
 
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
-            dgvReport = new System.Windows.Forms.DataGridView();
-            btnRefrescar = new System.Windows.Forms.Button();
-            btnCerrar = new System.Windows.Forms.Button();
-
+            dgvReport = new DataGridView();
+            btnRefrescar = new Button();
+            btnCerrar = new Button();
+            ((System.ComponentModel.ISupportInitialize)dgvReport).BeginInit();
             SuspendLayout();
-
+            // 
             // dgvReport
-            dgvReport.Location = new System.Drawing.Point(12, 12);
-            dgvReport.Size = new System.Drawing.Size(960, 420);
-            dgvReport.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
+            // 
+            dgvReport.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            dgvReport.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvReport.Location = new Point(12, 12);
+            dgvReport.Name = "dgvReport";
             dgvReport.ReadOnly = true;
-            dgvReport.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            dgvReport.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-
+            dgvReport.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dgvReport.Size = new Size(960, 420);
+            dgvReport.TabIndex = 0;
+            // 
             // btnRefrescar
-            btnRefrescar.Location = new System.Drawing.Point(12, 440);
-            btnRefrescar.Size = new System.Drawing.Size(120, 30);
+            // 
+            btnRefrescar.Location = new Point(12, 440);
+            btnRefrescar.Name = "btnRefrescar";
+            btnRefrescar.Size = new Size(120, 30);
+            btnRefrescar.TabIndex = 1;
             btnRefrescar.Text = "Refrescar";
             btnRefrescar.UseVisualStyleBackColor = true;
-
+            // 
             // btnCerrar
-            btnCerrar.Location = new System.Drawing.Point(852, 440);
-            btnCerrar.Size = new System.Drawing.Size(120, 30);
+            // 
+            btnCerrar.Location = new Point(852, 440);
+            btnCerrar.Name = "btnCerrar";
+            btnCerrar.Size = new Size(120, 30);
+            btnCerrar.TabIndex = 2;
             btnCerrar.Text = "Cerrar";
             btnCerrar.UseVisualStyleBackColor = true;
-
-            // Form
-            ClientSize = new System.Drawing.Size(984, 481);
+            // 
+            // ReportePedidosEnProcesoForm
+            // 
+            ClientSize = new Size(984, 481);
             Controls.Add(dgvReport);
             Controls.Add(btnRefrescar);
             Controls.Add(btnCerrar);
+            Name = "ReportePedidosEnProcesoForm";
             Text = "Reporte - Pedidos en Proceso";
-
+            Load += ReportePedidosEnProcesoForm_Load;
+            ((System.ComponentModel.ISupportInitialize)dgvReport).EndInit();
             ResumeLayout(false);
-            PerformLayout();
         }
     }
 }

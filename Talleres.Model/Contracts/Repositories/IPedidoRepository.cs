@@ -8,8 +8,7 @@ namespace Talleres.Model.Contracts.Repositories
     {
         Task<int> CreatePedidoAsync(Pedido pedido);
         Task CreateDetalleAsync(DetallePedido detalle);
-
-        // Nuevo: obtener pedidos en proceso/pendientes con info de producción (LEFT JOIN)
         Task<List<PedidoReporteDto>> GetPedidosEnProcesoAsync();
+        Task<List<PedidoEntregadoDto>> GetPedidosEntregadosAsync(DateTime fechaInicio, DateTime fechaFin);
     }
 }
